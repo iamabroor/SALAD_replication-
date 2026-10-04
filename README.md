@@ -2,7 +2,7 @@
 
 **Paper:** SALAD: Semantic Aware Discriminative Logical Anomaly Detection (ICCV 2025)  
 **arXiv:** [2509.02101](https://arxiv.org/abs/2509.02101)  
-**Author:** Ibbi (mabb0019@student.monash.edu)  
+**Author:** Ibbi (iamabroor@gmail.com)  
 **Date:** October 2026
 
 ---
