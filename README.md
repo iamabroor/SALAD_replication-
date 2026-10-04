@@ -15,12 +15,12 @@ This repository documents a full replication of the SALAD anomaly detection meth
 
 | Category | Logical | Structural | Mean | Paper Mean | Gap |
 |---|---|---|---|---|---|
-| breakfast_box | — | — | — | 89.3 | — |
-| juice_bottle | — | — | — | 99.7 | — |
-| pushpins | — | — | — | 99.4 | — |
-| screw_bag | — | — | — | 95.0 | — |
-| splicing_connectors | — | — | — | 97.3 | — |
-| **AVERAGE** | — | — | **93.80** | **96.1** | **−2.3** |
+| breakfast_box | 89.72 | 82.46 | 86.09 | 89.3 | -3.21 |
+| juice_bottle | 99.64 | 98.96 | 99.3 | 99.7 | -0.4 |
+| pushpins | 99.92 | 97.85 | 98.89 | 99.4 | -0.51 |
+| screw_bag | 90.15 | 95.69 | 92.92 | 95.0 | -2.08 |
+| splicing_connectors | 94.9 | 97.45 | 96.18 | 97.3 | -1.12 |
+| **AVERAGE** | **94.87** | **94.48** | **94.68** | **96.1** | **-1.42** |
 
 *(Seed 42; see `05_results/metrics/results_table.md` for full breakdown)*
 
@@ -40,7 +40,7 @@ SALAD_replication-/
 ## Quick Start
 
 ```bash
-# 1. Set up environment (RACE g5.2xlarge recommended)
+# 1. Set up environment (AWS GPU A10 g5.2xlarge used)
 bash 03_scripts/run_all.sh
 
 # 2. After training, generate report
@@ -49,6 +49,11 @@ bash 03_scripts/final_report.sh
 # 3. View final results
 python 03_scripts/final_results.py
 ```
+## Visualisations
+
+Here are the qualitative results comparing the baseline and our replication:
+
+![Anomaly Detection Heatmap](05_results/figures/heatmap_comparison.png)
 
 ## Citation
 
