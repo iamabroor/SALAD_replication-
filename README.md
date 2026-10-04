@@ -49,11 +49,34 @@ bash 03_scripts/final_report.sh
 # 3. View final results
 python 03_scripts/final_results.py
 ```
-## Visualisations
+## Visualisations & Graphs
 
-Here are the qualitative results comparing the baseline and our replication:
+### Performance Graphs
+<p align="center">
+  <img src="05_results/figures/01_mean_vs_paper (1).png" width="48%">
+  <img src="05_results/figures/02_logical_structural (1).png" width="48%">
+  <img src="05_results/figures/03_branches_vs_paper (1).png" width="48%">
+  <img src="05_results/figures/all_categories_slides (1).png" width="48%">
+</p>
 
-![Anomaly Detection Heatmap](05_results/figures/heatmap_comparison.png)
+### Summary Steps
+<p align="center">
+  <img src="05_results/figures/16_summary_all_steps.png" width="48%">
+  <img src="05_results/figures/16_summary_all_steps (1).png" width="48%">
+  <img src="05_results/figures/16_summary_all_steps (2).png" width="48%">
+  <img src="05_results/figures/16_summary_all_steps (3).png" width="48%">
+  <img src="05_results/figures/16_summary_all_steps (4).png" width="48%">
+  <img src="05_results/figures/16_summary_all_steps (5).png" width="48%">
+</p>
+
+### Category Galleries
+<p align="center">
+  <img src="05_results/figures/breakfast_box_gallery_p2.png" width="48%">
+  <img src="05_results/figures/juice_bottle_gallery_p1.png" width="48%">
+  <img src="05_results/figures/pushpins_gallery_p3.png" width="48%">
+  <img src="05_results/figures/screw_bag_gallery_p3.png" width="48%">
+  <img src="05_results/figures/splicing_connectors_gallery_p1.png" width="48%">
+</p>
 
 ## Citation
 
